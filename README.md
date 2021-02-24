@@ -25,10 +25,10 @@ Clicking on the poster should display the description about the item:
  
 ## How to use this aplication
 
-## Deploy in herokuapp
+### Deploy in herokuapp
 you can access the app [Here!]()
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 # Clone this repository
@@ -41,12 +41,14 @@ $ npm install
 $ npm start
 ```
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+Made with Love :gift_heart: by Abraão Vila Nova in Recife
 
 

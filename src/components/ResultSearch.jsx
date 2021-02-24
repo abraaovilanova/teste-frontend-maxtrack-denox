@@ -8,7 +8,7 @@ export default ({searchResults, fetchQueryInputData}) => {
             <ul>
                 {searchResults.filter(result => result.poster_path || result.profile_path).map(item => { 
                     return (
-                        <Item item={item} mediaType={item.media_type} fetchQueryInputData={fetchQueryInputData} />
+                        <Item item={item} mediaType={item.media_type} fetchQueryInputData={fetchQueryInputData} key={item.id}/>
 
                     )
                 })}

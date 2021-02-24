@@ -17,7 +17,6 @@ function App() {
   const [error, setError] = useState(false)
   const [trending, setTrending] = useState([])
   const [showTrending, setShowTrending] = useState(true)
-
   // main methods
   const fetchTrendingData = async (e, name) => {
     fetchQueryInputData(e, name )
@@ -65,10 +64,12 @@ function App() {
 
             {
               showTrending
-              ? <ResultTrending trending={ trending} fetchTrendingData={fetchTrendingData} />
+              ? 
+              <>
+                <ResultTrending trending={ trending } fetchTrendingData={fetchTrendingData} />
+              </>
               : ''
             }
-
             <ResultSearch searchResults={searchResults} fetchQueryInputData={fetchQueryInputData}/>
           </div>
         </div>

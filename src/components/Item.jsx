@@ -21,7 +21,7 @@ export default ({ item, mediaType, fetchQueryInputData }) => {
                         <p className="rating-title">RATING</p>
                         <p className="rating-content">
                             {item.vote_average}<small>/10</small>
-                            <i class="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
                         </p>
                     </div>
                     : null }
@@ -46,7 +46,6 @@ export default ({ item, mediaType, fetchQueryInputData }) => {
                 try {
                     const res = await fetch(url)
                     const data = await res.json()
-                    console.log(data)
                     setSeason(data)
                 } catch(err){
                     console.log(err)
@@ -76,7 +75,7 @@ export default ({ item, mediaType, fetchQueryInputData }) => {
                         <p className="rating-title">RATING</p>
                         <p className="rating-content">
                             {season.vote_average}<small>/10</small>
-                            <i class="fas fa-star"></i>
+                            <i className="fas fa-star"></i>
                         </p>
                     </div>
                     : null }
