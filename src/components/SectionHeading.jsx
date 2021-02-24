@@ -7,7 +7,9 @@ export default ({error, query, searchResultsLength  }) => {
             {
              error
                 ? <h2>Error, search again...</h2> 
-                : searchResultsLength ? <h2>FOUND AT LEAST {searchResultsLength} MATCHES FOR “{ query }”</h2> : <h2>Trending</h2>
+                : searchResultsLength 
+                    ? <h2>FOUND AT LEAST {searchResultsLength} MATCHES FOR “{ query }”</h2> 
+                    : <h2><i className="fas fa-chart-line"></i> Trending</h2>
             }
         </div>
     )
