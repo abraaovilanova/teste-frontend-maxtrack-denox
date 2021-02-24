@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(20, 24, 28);
+    color: rgb(245,246,247);
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.header .title-site{
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.logo i {
+    margin: 0 5px;
+}
+.logo i:nth-child(1){
+    color: rgb(255,128,0);
+}
+.logo i:nth-child(2){
+    color: rgb(0,244,84);
+
+}
+.logo i:nth-child(3){
+    color: rgb(64,188,244);
+
+}

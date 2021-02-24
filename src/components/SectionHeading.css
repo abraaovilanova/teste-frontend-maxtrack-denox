@@ -1,0 +1,18 @@
+.section-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #9ab;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+    margin-top: 0;
+    margin-bottom: .76923077rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #456;
+  }
+  
+  .section-heading h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 0.95rem;
+  }

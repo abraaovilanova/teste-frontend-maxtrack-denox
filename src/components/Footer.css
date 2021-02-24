@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.footer{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: transparent;
+    color: #89a;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.footer .text i {
+  color: rgb(255,128,0);
+}
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon a{
+    margin: 0 10px;
+    color:rgb(64,188,244);
+    font-size: 1.5rem;
+}
+
+.icon a:hover {
+    cursor: pointer;
+    color: rgb(174, 229, 255);
+}
