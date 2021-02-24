@@ -43,7 +43,7 @@ function App() {
     try {
       const res = await fetch(url)
       const data = await res.json()
-      data.results.length ? setSearchResults(data.results) : setError(true)
+      data.results.length || query == '' ? setSearchResults(data.results) : setError(true)
       
     } catch(err){
       console.log(err)
