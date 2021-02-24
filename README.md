@@ -1,8 +1,11 @@
 # Moviebox
 Moviebox is a single page aplication (SPA) developed in React.js, the aim of this app is to search for movies, Tv shows and artists.
-![Moviebox view #1](/images/readme-img1.png)
-![Moviebox view #2](/images/readme-img2.png)
 
+## Moviebox landing page
+![Moviebox view #1](/images/readme-img1.png)
+
+## Moviebox search results page
+![Moviebox view #2](/images/readme-img2.png)
 
 ## Introduction
 The purpose of this repository is to assess my knowledge and experience with ReactJS and related libraries for front-end developer.
@@ -20,8 +23,23 @@ Clicking on the poster should display the description about the item:
 
 ## Project
  
-## Available Scripts
-In the project directory, you can run:
+## How to use this aplication
+
+## Deploy in herokuapp
+you can access the app [Here!]()
+
+## Clone Repository
+
+```bash
+# Clone this repository
+$ git clone https://github.com/abraaovilanova/teste-frontend-maxtrack-denox
+# Access the project folder
+$ cd teste-frontend-maxtrack-denox
+# Install the dependencies
+$ npm install
+# Start the project
+$ npm start
+```
 
 ### `npm start`
 
